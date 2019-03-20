@@ -50,7 +50,7 @@
                 "bluetooth": {
                     "private_addressing": 0,
                     "advertising_timeout": 0,
-                    "tx_power": 6,
+                    "tx_power": 7,
                     "dfu_service": 1,
                     "event_service": 1,
                     "device_info_service": 1,
@@ -59,7 +59,7 @@
                     "open": 1,
                     "pairing_mode": 0,
                     "whitelist": 0,
-                    "security_level": "SECURITY_MODE_ENCRYPTION_NO_MITM"
+                    "security_level": null
                 }
             }
         }
