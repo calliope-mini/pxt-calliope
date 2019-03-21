@@ -28,7 +28,7 @@
         },
         "userConfigs": [
             {
-                "description": "No Pairing Required: Anyone can connect via Bluetooth.",
+                "description": "No Pairing Required (default): Anyone can connect via Bluetooth.",
                 "config": {
                     "microbit-dal": {
                         "bluetooth": {
@@ -41,7 +41,7 @@
                 }
             },
             {
-                "description": "JustWorks pairing (default): Pairing is automatic once the pairing is initiated.",
+                "description": "JustWorks pairing: Pairing is automatic once the pairing is initiated.",
                 "config": {
                     "microbit-dal": {
                         "bluetooth": {

@@ -2,12 +2,23 @@
     "name": "{0} block",
     "dependencies": {
         "core": "file:../core",
-        "radio": "file:../radio"
+        "bluetooth": "file:../bluetooth"
     },
     "description": "",
     "files": [
         "main.blocks",
         "main.ts",
         "README.md"
-    ]
+    ],
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "pairing_mode": 0,
+                    "whitelist": 0
+                }
+            }
+        }
+    }
 }
