@@ -1,0 +1,35 @@
+@import 'themes/default/globals/site.variables';
+@import 'themes/pxt/globals/site.variables';
+@import 'site/globals/site.variables';
+
+@import 'blockly-core';
+
+/*******************************
+        Blockly CSS
+*******************************/
+
+/* Reference import */
+@import (reference) "semantic.less";
+
+
+text.blocklyText {
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Blockly Field: Grid picker */
+.blocklyGridPickerTooltip {
+    padding: 3px 5px;
+    background-color: #fefefe;
+    border: black solid 3px;
+    color: black;
+    border-radius: 10px;
+}
+
+/* Led field editor */
+.blocklyLedOn {
+    stroke: white;
+    stroke-width: 1px;
+}
