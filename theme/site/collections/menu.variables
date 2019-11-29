@@ -1,6 +1,0 @@
-/*******************************
-    User Variable Overrides
-*******************************/
-
-@invertedBackground: #525A67;
-@dropdownMenuDistance: 0px;
